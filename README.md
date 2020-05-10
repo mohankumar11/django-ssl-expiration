@@ -1,13 +1,13 @@
 # Django - Check SSL Expiration
 # Introduction
-> This is an Django application which checks 
->SSL expiration of host if host is has less than 15 days of 
->SSL Expiration means a message will be sended from sender email to all receiver emails else it will show None of the host has less 
->than 15 days of SSL expiration.
+> It's a Django application which completely checks 
+>SSL expiration of host. Like if host has less than 15 days of 
+>SSL expiration then, a message will be sent from sender email to all receiver email. Else, it will show "None of the host has less 
+>than 15 days of SSL expiration".
 ## Getting Started
 
 ### Prerequisites
-To send email user should enable less secure apps and imap
+To send email, user should enable less secure apps and IMAP.
 - [Python 3.5+]()
 - [To send mail - Enable Less Secure Apps](https://myaccount.google.com/lesssecureapps)
 - [Enable IMAP](https://mail.google.com/mail/u/0/?tab=rm&ogbl#settings/fwdandpop)
@@ -44,7 +44,7 @@ EMAIL_HOST_PASSWORD =  '  Sender_password'
 
 Configure the SSL/template/index.html
 ```sh
-Change the value of sender email to the one which you given in settings . This will avoid confusion and help us to know from which email we are sending the emails
+Change the value of sender email to the one which you given in settings. This will avoid confusion and help us to know from which email we are sending the emails
 ```
 
 ```sh
